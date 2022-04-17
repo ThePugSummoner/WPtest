@@ -9,7 +9,6 @@ body {
   max-height: 100vh;
   overflow-x: auto;
   overflow-y: hidden;
-  font-size: 1.15em;
 }
 
 html {
@@ -41,6 +40,10 @@ div {
 #lapset{
   height: 47.5%;
   width: 50%;
+}
+
+#scrollspyHeading1 {
+  margin-top: 1em;
 }
 
 p {
@@ -142,5 +145,9 @@ footer div p{
 
   footer {
     display: block;
+  }
+
+  body {
+    font-size: 0.9em;
   }
 }
