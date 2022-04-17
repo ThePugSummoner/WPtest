@@ -9,6 +9,7 @@ body {
   max-height: 100vh;
   overflow-x: auto;
   overflow-y: hidden;
+  font-size: 1.15em;
 }
 
 html {
@@ -24,8 +25,6 @@ div {
   pointer-events: none;
   fill: currentColor;
 }
-
-
 
 .scrollarea {
   overflow-y: auto;
