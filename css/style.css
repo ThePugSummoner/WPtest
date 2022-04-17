@@ -122,9 +122,8 @@ footer {
   justify-content: space-around;
 }
 
-footer div {
-  height: auto;
-  width: auto;
+footer div p{
+  margin: 0.5em;
 }
 
 #carouselExampleCaptions {
@@ -158,8 +157,9 @@ footer div {
   user-select: none;
 }
 
-@media (min-width: 768px) {
-  .bd-placeholder-img-lg {
-    font-size: 3.5rem;
+@media (max-width: 768px) {
+  
+  footer {
+    display: block;
   }
 }
