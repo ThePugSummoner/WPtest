@@ -114,6 +114,10 @@ nav {
   border-color: antiquewhite;
 }
 
+.btn-close {
+  color: antiquewhite;
+}
+
 footer {
   display: flex;
   background-color:rgb(46, 45, 45);
@@ -159,6 +163,13 @@ footer div p{
 
 @media (max-width: 768px) {
   
+  footer {
+    display: block;
+  }
+}
+
+@media (max-width: 576px) {
+
   footer {
     display: block;
   }
