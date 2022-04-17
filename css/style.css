@@ -114,8 +114,17 @@ nav {
   border-color: antiquewhite;
 }
 
+.navbar-toggler:hover {
+  color: rgb(144, 144, 250);
+  border-color: rgb(144, 144, 250);
+}
+
 .btn-close {
-  color: antiquewhite;
+  background-color: antiquewhite;
+}
+
+.btn-close:hover {
+  background-color: rgb(144, 144, 250);
 }
 
 footer {
@@ -124,6 +133,7 @@ footer {
   color: antiquewhite;
   height: fit-content;
   justify-content: space-around;
+
 }
 
 footer div p{
@@ -133,6 +143,7 @@ footer div p{
 #carouselExampleCaptions {
   height: 40%;
   width: 40%;
+  margin: 1em;
 }
 
 .container-fluid {
