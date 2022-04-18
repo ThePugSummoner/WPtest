@@ -1,0 +1,215 @@
+body {
+    min-height: 100vh;
+    min-height: -webkit-fill-available;
+    background-image: url(../images/paper-2050768_1920.jpg);
+    display: flex;
+    flex-wrap: nowrap;
+    height: 100vh;
+    height: -webkit-fill-available;
+    max-height: 100vh;
+    overflow-x: auto;
+    overflow-y: hidden;
+  }
+  
+  html {
+    height: -webkit-fill-available;
+  }
+  
+  div {
+    overflow-y: auto;
+  }
+  
+  .bi {
+    vertical-align: -.125em;
+    pointer-events: none;
+    fill: currentColor;
+  }
+  
+  .scrollarea {
+    overflow-y: auto;
+  }
+  
+  .fw-semibold { font-weight: 600; }
+  .lh-tight { line-height: 1.25; }
+  
+  .fa-solid {
+    width: 30px;
+    height: 30px;
+  }
+  
+  #lapset{
+    height: 47.5%;
+    width: 50%;
+  }
+  
+  #scrollspyHeading1 {
+    margin-top: 1em;
+  }
+  
+  #scrollspyHeading4 {
+    margin-top: 1em;
+  }
+  
+  p {
+    margin-top: 1em;
+    text-align: center;
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+  
+  h1, h2 {
+    margin-top: 1em;
+    text-align: center;
+  }
+  
+  nav {
+    height: auto;
+    background-color: rgb(46, 45, 45);
+  }
+  
+  .nav-link {
+    color: antiquewhite;
+  }
+  
+  .nav-link:hover {
+    color: rgb(144, 144, 250);
+  }
+
+  .nav-link:focus {
+      color: rgb(144, 144, 250);
+  }
+  
+  .navbar-toggler {
+    padding-top: 0.5em;
+    padding-bottom: 0em;
+    color: antiquewhite;
+    border-color: antiquewhite;
+  }
+  
+  .navbar-toggler:hover {
+    color: rgb(144, 144, 250);
+    border-color: rgb(144, 144, 250);
+  }
+
+  .dropdown-item {
+      color: antiquewhite;
+  }
+
+  .dropdown-item:hover {
+    color: rgb(144, 144, 250);
+    background-color: rgb(46, 45, 45);
+  }
+
+  .dropdown-menu {
+      background-color: rgb(46, 45, 45);
+  }
+  
+  .btn-close {
+    background-color: antiquewhite;
+  }
+  
+  .btn-close:hover {
+    background-color: rgb(250, 144, 162);
+  }
+
+  .btn-toolbar{
+    margin-top: 1em;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .btn-toolbar .btn {
+    color: antiquewhite;
+    background-color: rgb(46, 45, 45);
+    border-color:rgb(46, 45, 45);
+    margin: 1em 1em 1em 1em;
+  }
+
+  .btn-group-vertical .btn {
+    color: antiquewhite;
+    background-color: rgb(46, 45, 45);
+    border-color:rgb(46, 45, 45);
+  }
+
+  .btn:hover {
+      color: rgb(144, 144, 250);
+  }
+  
+  #tehtävä1 {
+    align-items: center;
+    padding-left: 5em;
+    justify-content: space-around;
+  }
+  
+  footer {
+    display: flex;
+    background-color:rgb(46, 45, 45);
+    color: antiquewhite;
+    height: fit-content;
+    justify-content: space-around;
+    }
+  
+  footer div p{
+    margin: 0.5em;
+  }
+  
+  #carouselExampleCaptions {
+    height: 40%;
+    width: 40%;
+    margin: 1em;
+  }
+  
+  .container-fluid {
+    padding-top: 0.5em;
+    height: 4em;
+  }
+  
+  .offcanvas-header {
+    color: antiquewhite;
+    background-color: rgb(46, 45, 45);
+  }
+  
+  .offcanvas-body {
+    background-color: rgb(46, 45, 45);
+  }
+  
+  .offcanvas {
+    width: fit-content;
+  }
+  
+  .bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+  
+  @media (max-width: 768px) {
+    
+    footer {
+      display: block;
+    }
+
+    #question1 {
+    height: 47.5%;
+    width: 50%;
+    }
+
+    }
+  
+  @media (max-width: 576px) {
+  
+    footer {
+      display: block;
+    }
+  
+    body {
+      font-size: 0.9em;
+    }
+
+    #question1 {
+        height: 47.5%;
+        width: 50%;
+        }
+  }

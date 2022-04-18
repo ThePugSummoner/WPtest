@@ -6,56 +6,233 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-</head>
-<body>
-    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #375164;">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="index.html">Navbar</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div class="navbar-nav">
-        <a class="nav-link active" aria-current="page" href="../index.html">Etusivu</a>
-        <!--<a class="nav-link" href="#">Matikkapaketti</a>-->
-        <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Matikkapaketti
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: #375164;">
-              <li><a class="dropdown-item" href="matikka13.html">1-3 luokkalaisille</a></li>
-              <li><a class="dropdown-item" href="matikka46.html">4-6 luokkalaisille</a></li>
+    
+    <!-- Bootstrap core CSS -->
+    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    
+    <!-- Custom styles for this template -->
+    <link href="../css/style1.css" rel="stylesheet">
+  </head>
+  <body>
+      <nav class="d-flex flex-shrink-0" style="width: 5rem; height: 100%;">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Sidebar</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="nav nav-pills nav-flush flex-column mb-auto text-right">
+              <li>
+                <a href="../index.html#scrollspyHeading1" class="nav-link py-3">
+                  <i class="fa-solid fa-house"></i> 
+                  <span>Etusivu</span>
+                </a>
+              </li>
+              <li>
+                <a href="../index.html#scrollspyHeading2" class="nav-link py-3">
+                  <i class="fa-solid fa-plus-minus"></i>
+                  <span>Matikkapaketti 1-3 luokka</span>
+                </a>
+              </li>
+              <li>
+                <a href="../index.html#scrollspyHeading3" class="nav-link py-3">
+                  <i class="fa-solid fa-percent"></i>
+                  <span>Matikkapaketti 4-6 luokka</span>
+                </a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false"><i class="fa-solid fa-book-atlas"></i>
+                  <span>Maantieto</span></a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#scrollspyHeading5">Kysymys #1</a></li>
+                  <li><a class="dropdown-item" href="#scrollspyHeading6">Kysymys #2</a></li>
+                  <li><a class="dropdown-item" href="#scrollspyHeading7">Kysymys #3</a></li>
+                  <li><a class="dropdown-item" href="#scrollspyHeading8">Kysymys #4</a></li>
+                  <li><a class="dropdown-item" href="#scrollspyHeading9">Kysymys #5</a></li>
+                </ul>
+              </li>
+
+              <li>
+                <a href="../index.html#scrollspyHeading5" class="nav-link py-3">
+                  <i class="fa-solid fa-book-open"></i>
+                  <span>Historia</span>
+                </a>
+              </li>
+              <li>
+                <a href="../index.html#scrollspyHeading6" class="nav-link py-3">
+                  <i class="fa-solid fa-circle-info"></i>
+                  <span>Tietoa</span>
+                </a>
+              </li>
             </ul>
-          </li>
-        <!--<a class="nav-link" href="#">Tietovisa</a>-->
-        <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Tietovisa
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: #375164;">
-              <li><a class="dropdown-item" href="maantieto.html">Maantieto</a></li>
-              <li><a class="dropdown-item" href="historia.html">Historia</a></li>
-            </ul>
-          </li>
-        <a class="nav-link" href="#">Tietoa</a>
+          </div>
+        </div>
+    </nav>
+    <div>
+      <h1 id="scrollspyHeading4">Tietovisa - Maantieto</h1>
+      <p>Kaikissa tehtävissä on 4 vaihtoehtoa. Valitse 1 oikea.</p>
+      <h2 id="scrollspyHeading5">Kysymys #1</h2>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis ipsum aliquid eius reprehenderit magnam neque iure. 
+        Quae ab aut perferendis cupiditate obcaecati voluptate voluptates reprehenderit fugiat, repellat dolor sequi dolorum?
+      Quae culpa ipsa neque quaerat veniam laboriosam corrupti deserunt harum corporis molestias ratione accusamus odit assumenda 
+      sint recusandae porro eligendi repellat amet doloribus magnam cumque, animi sunt expedita? Eveniet, dignissimos.</p>
+      <div>
+        <img id="question1" src="../images/maltese-1123016_640.jpg" class="rounded mx-auto d-block my-5" alt="">
+      </div>
+      <div>
+        <div class="btn-toolbar" role="toolbar">
+          <button type="button" class="btn btn-primary">A</button>
+            <span>Vaihtoehto1</span>
+          <button type="button" class="btn btn-primary">B</button>
+            <span>Vaihtoehto2</span>
+          <button type="button" class="btn btn-primary">C</button>
+            <span>Vaihtoehto3</span>
+          <button type="button" class="btn btn-primary">D</button>
+            <span>Vaihtoehto4</span>
+        </div>
+      </div>
+      <h2 id="scrollspyHeading6">Kysymys #2</h2>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis ipsum aliquid eius reprehenderit magnam neque iure. 
+        Quae ab aut perferendis cupiditate obcaecati voluptate voluptates reprehenderit fugiat, repellat dolor sequi dolorum?
+      Quae culpa ipsa neque quaerat veniam laboriosam corrupti deserunt harum corporis molestias ratione accusamus odit assumenda 
+      sint recusandae porro eligendi repellat amet doloribus magnam cumque, animi sunt expedita? Eveniet, dignissimos.</p>
+      <div>
+        <img id="question1" src="../images/maltese-1123016_640.jpg" class="rounded mx-auto d-block my-5" alt="">
+      </div>
+      <div>
+        <div class="btn-toolbar" role="toolbar">
+          <button type="button" class="btn btn-primary">A</button>
+            <span>Vaihtoehto1</span>
+          <button type="button" class="btn btn-primary">B</button>
+            <span>Vaihtoehto2</span>
+          <button type="button" class="btn btn-primary">C</button>
+            <span>Vaihtoehto3</span>
+          <button type="button" class="btn btn-primary">D</button>
+            <span>Vaihtoehto4</span>
+        </div>
+      </div>
+      <h2 id="scrollspyHeading7">Kysymys #3</h2>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis ipsum aliquid eius reprehenderit magnam neque iure. 
+        Quae ab aut perferendis cupiditate obcaecati voluptate voluptates reprehenderit fugiat, repellat dolor sequi dolorum?
+      Quae culpa ipsa neque quaerat veniam laboriosam corrupti deserunt harum corporis molestias ratione accusamus odit assumenda 
+      sint recusandae porro eligendi repellat amet doloribus magnam cumque, animi sunt expedita? Eveniet, dignissimos.</p>
+      <div>
+        <img id="question1" src="../images/maltese-1123016_640.jpg" class="rounded mx-auto d-block my-5" alt="">
+      </div>
+      <div>
+        <div class="btn-toolbar" role="toolbar">
+          <button type="button" class="btn btn-primary">A</button>
+            <span>Vaihtoehto1</span>
+          <button type="button" class="btn btn-primary">B</button>
+            <span>Vaihtoehto2</span>
+          <button type="button" class="btn btn-primary">C</button>
+            <span>Vaihtoehto3</span>
+          <button type="button" class="btn btn-primary">D</button>
+            <span>Vaihtoehto4</span>
+        </div>
+      </div>
+      <h2 id="scrollspyHeading8">Kysymys #4</h2>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis ipsum aliquid eius reprehenderit magnam neque iure. 
+        Quae ab aut perferendis cupiditate obcaecati voluptate voluptates reprehenderit fugiat, repellat dolor sequi dolorum?
+      Quae culpa ipsa neque quaerat veniam laboriosam corrupti deserunt harum corporis molestias ratione accusamus odit assumenda 
+      sint recusandae porro eligendi repellat amet doloribus magnam cumque, animi sunt expedita? Eveniet, dignissimos.</p>
+      <div>
+        <img id="question1" src="../images/maltese-1123016_640.jpg" class="rounded mx-auto d-block my-5" alt="">
+      </div>
+      <div>
+        <div class="btn-toolbar" role="toolbar">
+          <button type="button" class="btn btn-primary">A</button>
+            <span>Vaihtoehto1</span>
+          <button type="button" class="btn btn-primary">B</button>
+            <span>Vaihtoehto2</span>
+          <button type="button" class="btn btn-primary">C</button>
+            <span>Vaihtoehto3</span>
+          <button type="button" class="btn btn-primary">D</button>
+            <span>Vaihtoehto4</span>
+        </div>
+      </div>
+      <h2 id="scrollspyHeading9">Kysymys #5</h2>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis ipsum aliquid eius reprehenderit magnam neque iure. 
+        Quae ab aut perferendis cupiditate obcaecati voluptate voluptates reprehenderit fugiat, repellat dolor sequi dolorum?
+      Quae culpa ipsa neque quaerat veniam laboriosam corrupti deserunt harum corporis molestias ratione accusamus odit assumenda 
+      sint recusandae porro eligendi repellat amet doloribus magnam cumque, animi sunt expedita? Eveniet, dignissimos.</p>
+      <div>
+        <img id="question1" src="../images/maltese-1123016_640.jpg" class="rounded mx-auto d-block my-5" alt="">
+      </div>
+      <div>
+        <div class="btn-toolbar" role="toolbar">
+          <button type="button" class="btn btn-primary">A</button>
+            <span>Vaihtoehto1</span>
+          <button type="button" class="btn btn-primary">B</button>
+            <span>Vaihtoehto2</span>
+          <button type="button" class="btn btn-primary">C</button>
+            <span>Vaihtoehto3</span>
+          <button type="button" class="btn btn-primary">D</button>
+            <span>Vaihtoehto4</span>
+        </div>
+      </div>
+      <h2 id="scrollspyHeading4">Kysymys #6</h2>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis ipsum aliquid eius reprehenderit magnam neque iure. 
+        Quae ab aut perferendis cupiditate obcaecati voluptate voluptates reprehenderit fugiat, repellat dolor sequi dolorum?
+      Quae culpa ipsa neque quaerat veniam laboriosam corrupti deserunt harum corporis molestias ratione accusamus odit assumenda 
+      sint recusandae porro eligendi repellat amet doloribus magnam cumque, animi sunt expedita? Eveniet, dignissimos.</p>
+      <div>
+        <img id="question1" src="../images/maltese-1123016_640.jpg" class="rounded mx-auto d-block my-5" alt="">
+      </div>
+      <div>
+        <div class="btn-toolbar" role="toolbar">
+          <button type="button" class="btn btn-primary">A</button>
+            <span>Vaihtoehto1</span>
+          <button type="button" class="btn btn-primary">B</button>
+            <span>Vaihtoehto2</span>
+          <button type="button" class="btn btn-primary">C</button>
+            <span>Vaihtoehto3</span>
+          <button type="button" class="btn btn-primary">D</button>
+            <span>Vaihtoehto4</span>
+        </div>
+      </div>
+      <h2 id="scrollspyHeading4">Kysymys #7</h2>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis ipsum aliquid eius reprehenderit magnam neque iure. 
+        Quae ab aut perferendis cupiditate obcaecati voluptate voluptates reprehenderit fugiat, repellat dolor sequi dolorum?
+      Quae culpa ipsa neque quaerat veniam laboriosam corrupti deserunt harum corporis molestias ratione accusamus odit assumenda 
+      sint recusandae porro eligendi repellat amet doloribus magnam cumque, animi sunt expedita? Eveniet, dignissimos.</p>
+      <div>
+        <img id="question1" src="../images/maltese-1123016_640.jpg" class="rounded mx-auto d-block my-5" alt="">
+      </div>
+      <div>
+        <div class="btn-toolbar" role="toolbar">
+          <button type="button" class="btn btn-primary">A</button>
+            <span>Vaihtoehto1</span>
+          <button type="button" class="btn btn-primary">B</button>
+            <span>Vaihtoehto2</span>
+          <button type="button" class="btn btn-primary">C</button>
+            <span>Vaihtoehto3</span>
+          <button type="button" class="btn btn-primary">D</button>
+            <span>Vaihtoehto4</span>
+        </div>
+      </div>
+      <div>
+        <footer>
+          <div>
+            <p>Tiettojenkäsittely TIK22KM</p>
+          </div>
+          <div>
+            <p>Web-Projekti Tiimi 11</p>
+          </div>
+          <div>
+            <p>Kevät 2022</p>
+          </div>
+        </footer>
       </div>
     </div>
-        </div>
-      </nav>
-    <h1>Maantieto</h1>
-    <div>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, odit cum? Ad aut distinctio, alias architecto suscipit veniam illum quam iure velit ratione saepe quasi eligendi, necessitatibus, sapiente quas nihil?
-    Expedita aliquam ipsa omnis debitis repellat dolorum incidunt sint consectetur vel consequatur eligendi rerum corporis, optio maiores totam laborum doloremque reprehenderit eaque, voluptatum earum laboriosam exercitationem accusantium sit. Voluptatibus, tempore?
-    Eligendi nam dolor nostrum mollitia laudantium temporibus quibusdam facere eveniet ut sit, non tempora debitis nobis quia quam, voluptas vitae minima dolorum neque incidunt. Provident magnam tempore vero repudiandae minima.
-    Dolorum eveniet laborum obcaecati doloribus omnis corrupti sit atque aliquid maiores. Accusamus, maiores nesciunt quas, veniam alias assumenda deleniti totam consequatur beatae amet blanditiis est saepe ad molestias tempore autem?
-    Voluptates est blanditiis dolores odio doloribus quos harum sint rem aliquam modi amet, quam, totam facilis dicta labore eos officia illo voluptatibus soluta perferendis perspiciatis corrupti ea nisi. Perferendis, quibusdam?</p>
-    </div>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
-    <script src="https://kit.fontawesome.com/0d05d2dbfa.js" crossorigin="anonymous"></script>
-</body>
-<footer>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores quae delectus sed vitae quod laborum commodi eos? Harum, dignissimos. Non eaque dolorum explicabo id magnam expedita, placeat vero neque fuga!
-    Beatae consequatur debitis, nemo incidunt repellat, totam ipsa molestiae nihil eos nam rerum, placeat tempore veniam non libero obcaecati quis. Incidunt quae sunt odio debitis ut dolore placeat iure voluptatem.</p>
-</footer>
+  <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="../js/script.js"></script>
+  <script src="https://kit.fontawesome.com/0d05d2dbfa.js" crossorigin="anonymous"></script>
+  </body>
 </html>
