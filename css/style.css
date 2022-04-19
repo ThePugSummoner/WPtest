@@ -89,6 +89,10 @@ nav {
   background-color: rgb(250, 144, 162);
 }
 
+.offcanvas {
+  visibility: hidden;
+}
+
 footer {
   display: flex;
   background-color:rgb(46, 45, 45);
