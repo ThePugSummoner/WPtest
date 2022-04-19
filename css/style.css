@@ -142,6 +142,12 @@ footer div p{
   footer {
     display: block;
   }
+
+  .btn {
+    flex-direction: column;
+  }
+
+  
 }
 
 @media (max-width: 576px) {
@@ -152,5 +158,9 @@ footer div p{
 
   body {
     font-size: 0.9em;
+  }
+
+  .btn-toolbar {
+    flex-direction: column;
   }
 }
