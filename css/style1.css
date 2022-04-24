@@ -102,7 +102,7 @@ body {
     background-color: rgb(46, 45, 45);
     border-color:rgb(46, 45, 45);
     margin: 1em 1em 1em 1em;
-    width: 150px;
+    width: fit-content;
   }
 
   .btn:hover {
