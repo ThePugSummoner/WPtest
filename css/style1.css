@@ -90,28 +90,7 @@ body {
     color: rgb(144, 144, 250);
     border-color: rgb(144, 144, 250);
   }
-
-  .dropdown-item {
-      color: antiquewhite;
-  }
-
-  .dropdown-item:hover {
-    color: rgb(144, 144, 250);
-    background-color: rgb(46, 45, 45);
-  }
-
-  .dropdown-menu {
-      background-color: rgb(46, 45, 45);
-  }
   
-  .btn-close {
-    background-color: antiquewhite;
-  }
-  
-  .btn-close:hover {
-    background-color: rgb(250, 144, 162);
-  }
-
   .btn-toolbar{
     margin-top: 1em;
     justify-content: center;
@@ -123,16 +102,11 @@ body {
     background-color: rgb(46, 45, 45);
     border-color:rgb(46, 45, 45);
     margin: 1em 1em 1em 1em;
-  }
-
-  .btn-group-vertical .btn {
-    color: antiquewhite;
-    background-color: rgb(46, 45, 45);
-    border-color:rgb(46, 45, 45);
+    width: 150px;
   }
 
   .btn:hover {
-      color: rgb(144, 144, 250);
+    color: rgb(144, 144, 250);
   }
   
   #tehtävä1 {

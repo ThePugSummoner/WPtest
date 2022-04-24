@@ -81,14 +81,6 @@ nav {
   border-color: rgb(144, 144, 250);
 }
 
-.btn-close {
-  background-color: antiquewhite;
-}
-
-.btn-close:hover {
-  background-color: rgb(250, 144, 162);
-}
-
 .offcanvas {
   visibility: hidden;
 }
