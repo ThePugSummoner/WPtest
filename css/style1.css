@@ -185,5 +185,6 @@ body {
     #image {
     height: 47.5%;
     width: 50%;
+    touch-action: double-tap-zoom;
     }
   }
