@@ -37,7 +37,12 @@ div {
   height: 30px;
 }
 
-#lapset{
+#lapset {
+  height: 47.5%;
+  width: 50%;
+}
+
+#globe {
   height: 47.5%;
   width: 50%;
 }
