@@ -89,6 +89,7 @@ h1 {
 footer {
   display: flex;
   background-color:rgb(46, 45, 45);
+  background-position: sticky;
   color: antiquewhite;
   height: fit-content;
   justify-content: space-around;
@@ -105,6 +106,7 @@ footer div p{
 }
 
 .container-fluid {
+  margin-top: 1.75em;
   padding-top: 0.5em;
   height: 4em;
 }
