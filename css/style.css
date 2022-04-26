@@ -47,18 +47,13 @@ div {
 }
 
 p {
-  margin: 3em 3em 3em 3em;
+  margin: 3em 3em 3em 5em;
   text-align: center;
 }
 
 h1 {
   margin-top: 1em;
   text-align: center;
-}
-
-nav {
-  height: auto;
-  background-color: rgb(46, 45, 45);
 }
 
 .nav-link {
@@ -73,6 +68,7 @@ nav {
   padding-top: 0.5em;
   padding-bottom: 0em;
   color: antiquewhite;
+  background-color: rgb(46, 45, 45);
   border-color: antiquewhite;
 }
 
@@ -138,7 +134,6 @@ footer div p{
   .btn {
     flex-direction: column;
   }
-
   
 }
 

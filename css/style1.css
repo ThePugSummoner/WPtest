@@ -52,6 +52,7 @@ body {
   
   p {
     margin-top: 1em;
+    margin-left: 3em;
     text-align: center;
     padding-left: 2em;
     padding-right: 2em;
@@ -61,12 +62,7 @@ body {
     margin-top: 1em;
     text-align: center;
   }
-  
-  nav {
-    height: auto;
-    background-color: rgb(46, 45, 45);
-  }
-  
+    
   .nav-link {
     color: antiquewhite;
   }
@@ -83,6 +79,7 @@ body {
     padding-top: 0.5em;
     padding-bottom: 0em;
     color: antiquewhite;
+    background-color: rgb(46, 45, 45);
     border-color: antiquewhite;
   }
   
@@ -121,6 +118,7 @@ body {
     color: antiquewhite;
     height: fit-content;
     justify-content: space-around;
+    width: 100%;
     }
   
   footer div p{
@@ -166,8 +164,8 @@ body {
     }
 
     #image {
-    height: 47.5%;
-    width: 50%;
+    height: 60%;
+    width: 65%;
     }
 
     }
@@ -185,6 +183,6 @@ body {
     #image {
     height: 60%;
     width: 65%;
-    touch-action: auto;
     }
+    
   }
