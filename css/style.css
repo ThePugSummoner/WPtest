@@ -165,6 +165,11 @@ footer div p{
     background-color: rgb(46, 45, 45)
   }
 
+  #globe {
+    height: 47.5%;
+    width: 50%;
+  }
+
 }
 
 @media (max-width: 576px) {
@@ -190,6 +195,11 @@ footer div p{
     border-color: antiquewhite;
     background-color: rgb(46, 45, 45)
   }
+
+  #globe {
+      height: 47.5%;
+      width: 50%;
+    }
 
   h1 {
     margin-left: 2em;
