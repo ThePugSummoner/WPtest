@@ -1,3 +1,5 @@
+/*Navbar ja bootstrap määrittelyt alkaa*/
+
 body {
   min-height: 100vh;
   min-height: -webkit-fill-available;
@@ -38,6 +40,53 @@ div {
   height: 30px;
 }
 
+.nav-link {
+  color: antiquewhite;
+}
+
+.nav-link:hover {
+  color: rgb(144, 144, 250);
+}
+
+.navbar-toggler {
+  padding-top: 0.5em;
+  padding-bottom: 0em;
+  color: rgb(46, 45, 45);
+  border-color: rgb(46, 45, 45);
+  background-color: transparent;
+}
+
+.navbar-toggler:hover {
+  color: antiquewhite;
+  border-color: antiquewhite;
+  background-color: rgb(46, 45, 45)
+}
+
+.offcanvas {
+  visibility: hidden;
+}
+
+.container-fluid {
+  padding-top: 0;
+  padding-left: 0.75em;
+  height: 4em;
+}
+
+.offcanvas-header {
+  color: antiquewhite;
+  background-color: rgb(46, 45, 45);
+}
+
+.offcanvas-body {
+  background-color: rgb(46, 45, 45);
+}
+
+.offcanvas {
+  width: fit-content;
+}
+
+/*Tähän asti*/
+
 #lapset {
   height: 47.5%;
   width: 50%;
@@ -70,31 +119,10 @@ h1:hover, a:hover {
   color: rgb(46, 45, 45);
 }
 
-
-.nav-link {
-  color: antiquewhite;
-}
-
-.nav-link:hover {
-  color: rgb(144, 144, 250);
-}
-
-.navbar-toggler {
-  padding-top: 0.5em;
-  padding-bottom: 0em;
-  color: rgb(46, 45, 45);
-  border-color: rgb(46, 45, 45);
-  background-color: transparent;
-}
-
-.navbar-toggler:hover {
-  color: antiquewhite;
-  border-color: antiquewhite;
-  background-color: rgb(46, 45, 45)
-}
-
-.offcanvas {
-  visibility: hidden;
+#carouselExampleCaptions {
+  height: 40%;
+  width: 40%;
+  margin: 1em;
 }
 
 footer {
@@ -108,39 +136,6 @@ footer {
 
 footer div p{
   margin: 0.5em;
-}
-
-#carouselExampleCaptions {
-  height: 40%;
-  width: 40%;
-  margin: 1em;
-}
-
-.container-fluid {
-  padding-top: 0;
-  padding-left: 0.75em;
-  height: 4em;
-}
-
-.offcanvas-header {
-  color: antiquewhite;
-  background-color: rgb(46, 45, 45);
-}
-
-.offcanvas-body {
-  background-color: rgb(46, 45, 45);
-}
-
-.offcanvas {
-  width: fit-content;
-}
-
-.bd-placeholder-img {
-  font-size: 1.125rem;
-  text-anchor: middle;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  user-select: none;
 }
 
 @media (max-width: 768px) {
