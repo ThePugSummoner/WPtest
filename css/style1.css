@@ -184,12 +184,12 @@ body {
     }
   
     body {
-      font-size: 0.9em;
+      font-size: 0.85em;
     }
 
     #image {
-    height: 60%;
-    width: 65%;
+    height: 47.5%;
+    width: 50%;
     }
 
     .btn-toolbar {
