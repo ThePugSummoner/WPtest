@@ -38,12 +38,7 @@ div {
   height: 30px;
 }
 
-#lapset {
-  height: 47.5%;
-  width: 50%;
-}
-
-#globe {
+.rounded {
   height: 47.5%;
   width: 50%;
 }
@@ -53,14 +48,28 @@ div {
 }
 
 p {
-  margin: 3em 3em 3em 5em;
+  margin: 3em 3em 3em 7em;
   text-align: center;
 }
 
 h1 {
   margin-top: 1em;
   text-align: center;
+  color: rgb(46, 45, 45);
 }
+
+a {
+  color: rgb(46, 45, 45);
+}
+
+h1:hover, a:hover {
+  color: rgb(144, 144, 250);
+}
+
+#scrollspyHeading1:hover, #scrollspyHeading6:hover {
+  color: rgb(46, 45, 45);
+}
+
 
 .nav-link {
   color: antiquewhite;
@@ -73,14 +82,15 @@ h1 {
 .navbar-toggler {
   padding-top: 0.5em;
   padding-bottom: 0em;
-  color: antiquewhite;
-  background-color: rgb(46, 45, 45);
-  border-color: antiquewhite;
+  color: rgb(46, 45, 45);
+  border-color: rgb(46, 45, 45);
+  background-color: transparent;
 }
 
 .navbar-toggler:hover {
-  color: rgb(144, 144, 250);
-  border-color: rgb(144, 144, 250);
+  color: antiquewhite;
+  border-color: antiquewhite;
+  background-color: rgb(46, 45, 45)
 }
 
 .offcanvas {
@@ -107,8 +117,8 @@ footer div p{
 }
 
 .container-fluid {
-  margin-top: 1.75em;
-  padding-top: 0.5em;
+  padding-top: 0;
+  padding-left: 0.75em;
   height: 4em;
 }
 
@@ -142,7 +152,20 @@ footer div p{
   .btn {
     flex-direction: column;
   }
-  
+
+  .navbar-toggler {
+    padding-top: 0.5em;
+    padding-bottom: 0em;
+    color: rgb(46, 45, 45);
+    border-color: rgb(46, 45, 45);
+    background-color: transparent;
+  }
+  .navbar-toggler:hover {
+    color: antiquewhite;
+    border-color: antiquewhite;
+    background-color: rgb(46, 45, 45)
+  }
+
 }
 
 @media (max-width: 576px) {
@@ -152,10 +175,28 @@ footer div p{
   }
 
   body {
-    font-size: 0.9em;
+    font-size: 0.8em;
   }
 
   .btn-toolbar {
     flex-direction: column;
+  }
+
+  .navbar-toggler {
+    padding-top: 0.5em;
+    padding-bottom: 0em;
+    color: rgb(46, 45, 45);
+    border-color: rgb(46, 45, 45);
+    background-color: transparent;
+  }
+
+  .navbar-toggler:hover {
+    color: antiquewhite;
+    border-color: antiquewhite;
+    background-color: rgb(46, 45, 45)
+  }
+
+  h1 {
+    margin-left: 2em;
   }
 }
