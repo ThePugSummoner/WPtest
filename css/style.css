@@ -157,12 +157,11 @@ footer div p{
     padding-top: 0.5em;
     padding-bottom: 0em;
     color: rgb(46, 45, 45);
-    border-color: rgb(46, 45, 45);
+    border-style: none;
     background-color: transparent;
   }
   .navbar-toggler:hover {
     color: antiquewhite;
-    border-color: antiquewhite;
     background-color: rgb(46, 45, 45)
   }
 
@@ -186,7 +185,7 @@ footer div p{
     padding-top: 0.5em;
     padding-bottom: 0em;
     color: rgb(46, 45, 45);
-    border-color: rgb(46, 45, 45);
+    border-style: none;
     background-color: transparent;
   }
 
