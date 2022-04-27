@@ -1,7 +1,7 @@
 body {
   min-height: 100vh;
   min-height: -webkit-fill-available;
-  background-image: url(../images/paper-2050768_1920.jpg);
+  background-image: url(../images/paper-2050768.jpg);
   background-position: fixed;
   display: flex;
   flex-wrap: nowrap;
@@ -38,7 +38,7 @@ div {
   height: 30px;
 }
 
-.rounded {
+#lapset {
   height: 47.5%;
   width: 50%;
 }
@@ -175,10 +175,6 @@ footer div p{
 
   body {
     font-size: 0.8em;
-  }
-
-  .btn-toolbar {
-    flex-direction: column;
   }
 
   .navbar-toggler {

@@ -1,7 +1,7 @@
 body {
     min-height: 100vh;
     min-height: -webkit-fill-available;
-    background-image: url(../images/paper-2050768_1920.jpg);
+    background-image: url(../images/watercolors-413275.jpg);
     background-position: fixed;
     display: flex;
     flex-wrap: nowrap;
@@ -36,11 +36,6 @@ body {
   .fa-solid {
     width: 30px;
     height: 30px;
-  }
-  
-  .rounded {
-    height: 47.5%;
-    width: 50%;
   }
   
   #scrollspyHeading1 {
@@ -100,7 +95,7 @@ body {
     background-color: rgb(46, 45, 45);
     border-color:rgb(46, 45, 45);
     margin: 1em 1em 1em 1em;
-    width: fit-content;
+    width: max-content;
   }
 
   .btn:hover {
@@ -164,9 +159,27 @@ body {
       display: block;
     }
 
-    .rounded {
+    #image {
     height: 60%;
     width: 65%;
+    }
+
+    .navbar-toggler {
+      padding-top: 0.5em;
+      padding-bottom: 0em;
+      color: rgb(46, 45, 45);
+      border-style: none;
+      background-color: transparent;
+    }
+  
+    .navbar-toggler:hover {
+      color: antiquewhite;
+      border-color: antiquewhite;
+      background-color: rgb(46, 45, 45)
+    }
+
+    .btn-toolbar {
+      flex-direction:row;
     }
 
     }
@@ -181,9 +194,26 @@ body {
       font-size: 0.9em;
     }
 
-    .rounded {
+    #image {
     height: 60%;
     width: 65%;
     }
+
+    .btn-toolbar {
+      flex-direction: column;
+    }
     
+    .navbar-toggler {
+      padding-top: 0.5em;
+      padding-bottom: 0em;
+      color: rgb(46, 45, 45);
+      border-style: none;
+      background-color: transparent;
+    }
+  
+    .navbar-toggler:hover {
+      color: antiquewhite;
+      border-color: antiquewhite;
+      background-color: rgb(46, 45, 45)
+    }
   }
