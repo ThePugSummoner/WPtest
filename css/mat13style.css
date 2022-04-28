@@ -38,14 +38,6 @@ body {
     height: 30px;
   }
   
-  #scrollspyHeading1 {
-    margin-top: 1em;
-  }
-  
-  #scrollspyHeading4 {
-    margin-top: 1em;
-  }
-  
   p {
     margin-top: 1em;
     margin-left: 3em;
@@ -57,6 +49,24 @@ body {
   h1, h2 {
     margin-top: 1em;
     text-align: center;
+  }
+
+  .container-fluid {
+    padding-top: 0.5em;
+    height: 4em;
+  }
+  
+  .offcanvas-header {
+    color: antiquewhite;
+    background-color: rgb(46, 45, 45);
+  }
+  
+  .offcanvas-body {
+    background-color: rgb(46, 45, 45);
+  }
+  
+  .offcanvas {
+    width: fit-content;
   }
     
   .nav-link {
@@ -102,12 +112,6 @@ body {
     color: rgb(144, 144, 250);
   }
   
-  #tehtävä1 {
-    align-items: center;
-    padding-left: 5em;
-    justify-content: space-around;
-  }
-  
   footer {
     display: flex;
     background-color:rgb(46, 45, 45);
@@ -120,32 +124,7 @@ body {
   footer div p{
     margin: 0.5em;
   }
-  
-  #carouselExampleCaptions {
-    height: 40%;
-    width: 40%;
-    margin: 1em;
-  }
-  
-  .container-fluid {
-    padding-top: 0.5em;
-    height: 4em;
-  }
-  
-  .offcanvas-header {
-    color: antiquewhite;
-    background-color: rgb(46, 45, 45);
-  }
-  
-  .offcanvas-body {
-    background-color: rgb(46, 45, 45);
-  }
-  
-  .offcanvas {
-    width: fit-content;
-  }
-  
-  
+    
   @media (max-width: 768px) {
     
     footer {
