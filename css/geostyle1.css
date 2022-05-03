@@ -149,6 +149,7 @@ body {
     
     footer {
       display: block;
+      position: relative;
     }
 
     #image {
@@ -180,6 +181,7 @@ body {
   
     footer {
       display: block;
+      position: relative;
     }
   
     body {

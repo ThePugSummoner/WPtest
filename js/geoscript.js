@@ -51,7 +51,7 @@ let questions = [
     },
 
     {
-        text: "Chichén Itzá on kuuluisin ja parhaiten kunnostettu esikolumbiaaninen arkeologinen alue ja historiallinen kaupunki Jukatanin niemimaalla. Sen rakentamisen aloittivat mayat. Chichén Itzá kuuluu Unescon maailmanperintöluetteloon. Tämä pyramidi tunnettu nimellä Kukulcanin temppeli. Missä päin maailma se sijaitsee?",
+        text: "Chichén Itzá on kuuluisin ja parhaiten kunnostettu esikolumbiaaninen arkeologinen alue ja historiallinen kaupunki Jukatanin niemimaalla. Sen rakentamisen aloittivat mayat. Chichén Itzá kuuluu Unescon maailmanperintöluetteloon. Tämä pyramidi tunnettu nimellä Kukulcanin temppeli. Missä maassa tämä pyramidi sijaitsee?",
         imgFile: "../images/mexico-3774303_640.jpg",
         answer: [
             "Egyptissä",
@@ -77,7 +77,7 @@ let questions = [
             "BigBen",
             "Elisabetin",
             "Pyhän Tapanin",
-            "Kello"]
+            "Lontoon"]
     },
 
     {
@@ -94,34 +94,34 @@ let questions = [
         text: "Kalteva torni on italialaisen kaupungin tuomiokirkon kellotorni Piazza dei Miracolin alueella. Torni on tullut kuuluisaksi siitä, että se on kallellaan. Romaanista tyyliä edustavan tornin rakentaminen aloitettiin vuonna 1173. Sen kallistuminen aiheutti taukoja rakentamiseen, ja kellotapuli valmistui vasta vuonna 1370. Tornissa on seitsemän kirkonkelloa. Tornin kallistuminen saatiin pysäytettyä 1990-luvulla aloitetussa suoristushankkeessa. Missä kaupungissa kalteva torni sijaitsee?",
         imgFile: "../images/italy-4681065_640.jpg",
         answer: [
-            "Pisassa",
             "Roomassa",
+            "Pisassa",
             "Palermossa",
             "Bolognassa"]
     },
 //10 questions
     {
-        text: "Japanin Alpit ovat vuoristo Japanin pääsaaren Honshūn keskiosassa. Japanin korkein vuoristo koostuu Hida-, Kiso- ja Akaishi-vuoristoista (Pohjois-, Keski- ja Etelä-Alpeista).Mikä on Japanin korkein vuori?",
+        text: "Japani koostuu yli 3 000 saaresta, joista suurimmat ovat Honshū, Hokkaidō, Kyūshū ja Shikoku. Valtaosa saarista on vuoristoisia ja monet myös tuliperäisiä. Japanin Alpit ovat vuoristo Japanin pääsaaren Honshūn keskiosassa. Japanin korkein vuoristo koostuu Hida-, Kiso- ja Akaishi-vuoristoista (Pohjois-, Keski- ja Etelä-Alpeista).Mikä on Japanin korkein vuori?",
         imgFile: "../images/mount-fuji-6748510_640.jpg",
         answer: [
-            "Fuji",
             "Kitadake",
             "Hotakadake",
-            "Komagatake"]
+            "Komagatake",
+            "Fuji"]
     },
 
     {
-        text: "Mikä on maailman korkein vuori?",
+        text: "Vuori on ympäröivää aluetta selvästi korkeampi pinnanmuoto. Vuorella on tyypillisesti jyrkät rinteet, suhteellisen helposti rajattavissa oleva huippualue ja huomattavat paikalliset korkeuserot. Vuoria muodostuu laattatektonisten mekanismien tai vulkaanisen toiminnan tuloksena. Mikä on maailman korkein vuori?",
         imgFile: "../images/mount-everest-5295184_640.jpg",
         answer: [
-            "Everest",
             "Mont Blanc",
+            "Everest",
             "K2",
             "Aconcagua"]
     },
 
     {
-        text: "Tämä valtio sijaitsee Etelä-Amerikan eteläosassa Atlantin länsirannikolla. Se ulottuu trooppisesta pohjoisesta Etelä-Amerikan antarktiseen eteläkärkeen. Maan eläinpopulaatioon kuuluu niin apinoita, jaguaareja kuin pingviinejäkin.",
+        text: "Tämä valtio sijaitsee Etelä-Amerikan eteläosassa Atlantin länsirannikolla. Se ulottuu trooppisesta pohjoisesta Etelä-Amerikan antarktiseen eteläkärkeen. Maan eläinpopulaatioon kuuluu niin apinoita, jaguaareja kuin pingviinejäkin. Virallinen kieli on espanja. Mikä valtio se on?",
         imgFile: "../images/international-2690834_640.jpg",
         answer: [
             "Bolivia",
@@ -131,7 +131,7 @@ let questions = [
     },
 
     {
-        text: "Brasilia on Etelä-Amerikan suurin valtio sekä pinta-alaltaan että asukasluvultaan ja se on myös sekä pinta-alaltaan että asukasluvultaan maailman viidenneksi suurin valtio. Virallinen kieli on portugali. Mikä on Brasilian pääkaupunki?",
+        text: "Brasilia on Etelä-Amerikan suurin valtio sekä pinta-alaltaan että asukasluvultaan ja se on myös sekä pinta-alaltaan että asukasluvultaan maailman viidenneksi suurin valtio. Euroopan unionin alue vastaa vain puolta Brasilian pinta-alasta. Virallinen kieli on portugali. Mikä on Brasilian pääkaupunki?",
         imgFile: "../images/flag-742573_640.jpg",
         answer: [
             "São Paulo",
@@ -141,7 +141,7 @@ let questions = [
     },
 
     {
-        text: "Mikä on maailman suurin valtameri?",
+        text: "Valtameret ovat maapallon suurimpia meriä. Kaikki valtameret ovat yhteydessä toisiinsa. Tavallisesti niitä määritellään olevan kolme, neljä tai viisi. Pohjoisella pallonpuoliskolla ja vielä päiväntasaajan seudulla mantereet kuitenkin erottavat ne selvästi toisistaan. Mikä on maailman suurin valtameri (pinta-ala)?",
         imgFile: "../images/cruise-1578528_640.jpg",
         answer: [
             "Tyyni",
@@ -151,7 +151,7 @@ let questions = [
     },
 
     {
-        text: "Petra perustettiin nabatealaisten pääkaupungiksi kuudennella vuosisadalla eaa.[2] Se tunnetaan erityisesti kiveen kaiverretusta arkkitehtuuristaan ja vesijohtojärjestelmästään. Suurimmillaan Petrassa oli mahdollisesti yli 20 000 asukasta, ja se oli merkittävä kauppakeskus. Kaupunki hylättiin tiettävästi 600-luvun lopulla maanjäristysten ja kaupan vähenemisen seurauksena, minkä jälkeen se vaipui unohduksiin. Nykyisin Petra on suosittu vierailukohde, ja se on ollut Unescon maailmanperintöluettelossa vuodesta 1985. Missä maassa Petra sijaitsee?",
+        text: "Petra perustettiin nabatealaisten pääkaupungiksi kuudennella vuosisadalla eaa. Se tunnetaan erityisesti kiveen kaiverretusta arkkitehtuuristaan ja vesijohtojärjestelmästään. Suurimmillaan Petrassa oli mahdollisesti yli 20 000 asukasta, ja se oli merkittävä kauppakeskus. Kaupunki hylättiin tiettävästi 600-luvun lopulla maanjäristysten ja kaupan vähenemisen seurauksena, minkä jälkeen se vaipui unohduksiin. Nykyisin Petra on suosittu vierailukohde, ja se on ollut Unescon maailmanperintöluettelossa vuodesta 1985. Missä maassa Petra sijaitsee?",
         imgFile: "../images/petra-6294051_640.jpg",
         answer: [
             "Egyptissä",
@@ -208,13 +208,26 @@ function getRndInteger(min, max) {
 
 let num = 0;
 
-let forward = document.getElementById("btn6");
+let answer1 = document.getElementById("btn1");
+let answer2 = document.getElementById("btn2");
+let answer3 = document.getElementById("btn3");
+let answer4 = document.getElementById("btn4");
 
-forward.addEventListener("click", nextQuestion);
+answer1.addEventListener("click", submitAnswer);
+answer2.addEventListener("click", submitAnswer);
+answer3.addEventListener("click", submitAnswer);
+answer4.addEventListener("click", submitAnswer);
 
-function nextQuestion() {
+function submitAnswer() {
 
     num++;
+
+    if(num > 5) {
+        answer1.addEventListener("click", checkAnswers);
+        answer2.addEventListener("click", checkAnswers);
+        answer3.addEventListener("click", checkAnswers);
+        answer4.addEventListener("click", checkAnswers);
+    }
 
     let rndNumber = getRndInteger(0, questions.length - 1);
     
@@ -228,24 +241,4 @@ function nextQuestion() {
         document.getElementById("num").innerHTML = num;
     }
     questions.splice(rndNumber, 1);
-
-    if(num > 4) {
-        forward.disabled = true;
-        forward.innerHTML = "Lähetä";
-        forward.addEventListener("click", sendAnswers);
-    }
-}
-
-let answer1 = document.getElementById("btn1");
-let answer2 = document.getElementById("btn2");
-let answer3 = document.getElementById("btn3");
-let answer4 = document.getElementById("btn4");
-
-answer1.addEventListener("click", lockAnswer);
-answer2.addEventListener("click", lockAnswer);
-answer3.addEventListener("click", lockAnswer);
-answer4.addEventListener("click", lockAnswer);
-
-function lockAnswer () {
-
 }

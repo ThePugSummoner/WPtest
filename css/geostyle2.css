@@ -87,6 +87,7 @@ body {
   
   .btn-toolbar{
     margin-top: 1em;
+    margin-bottom: 1em;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -152,17 +153,52 @@ body {
     width: 640px;
     height: 426px;
   }
+
+  @media (max-width: 1024px) {
+    
+    footer {
+      display: block;
+      position: relative;
+    }
+
+    img {
+    height: 60%;
+    width: 65%;
+    margin: 0;
+    }
+
+    .navbar-toggler {
+      padding-top: 0.5em;
+      padding-bottom: 0em;
+      color: rgb(46, 45, 45);
+      border-style: none;
+      background-color: transparent;
+    }
+  
+    .navbar-toggler:hover {
+      color: antiquewhite;
+      border-color: antiquewhite;
+      background-color: rgb(46, 45, 45)
+    }
+
+    .btn-toolbar {
+      flex-direction:row;
+    }
+
+    }
   
   
   @media (max-width: 768px) {
     
     footer {
       display: block;
+      position: relative;
     }
 
     img {
     height: 60%;
     width: 65%;
+    margin: 0;
     }
 
     .navbar-toggler {
@@ -189,6 +225,7 @@ body {
   
     footer {
       display: block;
+      position: relative;
     }
   
     body {
@@ -198,11 +235,21 @@ body {
     img {
     height: 47.5%;
     width: 50%;
+    margin: 0;
     }
 
     .btn-toolbar {
       flex-direction: column;
     }
+
+    .btn-toolbar .btn {
+      color: antiquewhite;
+      background-color: rgb(46, 45, 45);
+      border-color:rgb(46, 45, 45);
+      margin: 0.5em;
+      width: 150px;
+    }
+
     
     .navbar-toggler {
       padding-top: 0.5em;
