@@ -25,7 +25,7 @@ let questions = [
         imgFile: "../images/egypt-2133951_640.jpg",
         answer: [
             "Kairossa",
-            "Luxorisaa",
+            "Luxorissa",
             "Aleksandriassa",
             "Gizassa"]
     },
@@ -57,7 +57,7 @@ let questions = [
             "Egyptissä",
             "Meksikossa",
             "Kiinassa",
-            "Jordaniassa"]
+            "Kolumbiassa"]
     },
 
     {
@@ -94,7 +94,7 @@ let questions = [
         text: "Kalteva torni on italialaisen kaupungin tuomiokirkon kellotorni Piazza dei Miracolin alueella. Torni on tullut kuuluisaksi siitä, että se on kallellaan. Romaanista tyyliä edustavan tornin rakentaminen aloitettiin vuonna 1173. Sen kallistuminen aiheutti taukoja rakentamiseen, ja kellotapuli valmistui vasta vuonna 1370. Tornissa on seitsemän kirkonkelloa. Tornin kallistuminen saatiin pysäytettyä 1990-luvulla aloitetussa suoristushankkeessa. Missä kaupungissa kalteva torni sijaitsee?",
         imgFile: "../images/italy-4681065_640.jpg",
         answer: [
-            "Roomassa",
+            "Venetsiassa",
             "Pisassa",
             "Palermossa",
             "Bolognassa"]
@@ -151,7 +151,7 @@ let questions = [
     },
 
     {
-        text: "Petra perustettiin nabatealaisten pääkaupungiksi kuudennella vuosisadalla eaa. Se tunnetaan erityisesti kiveen kaiverretusta arkkitehtuuristaan ja vesijohtojärjestelmästään. Suurimmillaan Petrassa oli mahdollisesti yli 20 000 asukasta, ja se oli merkittävä kauppakeskus. Kaupunki hylättiin tiettävästi 600-luvun lopulla maanjäristysten ja kaupan vähenemisen seurauksena, minkä jälkeen se vaipui unohduksiin. Nykyisin Petra on suosittu vierailukohde, ja se on ollut Unescon maailmanperintöluettelossa vuodesta 1985. Missä maassa Petra sijaitsee?",
+        text: "Petra perustettiin nabatealaisten pääkaupungiksi kuudennella vuosisadalla eaa. Se tunnetaan erityisesti kiveen kaiverretusta arkkitehtuuristaan ja vesijohtojärjestelmästään. Suurimmillaan Petrassa oli mahdollisesti yli 20 000 asukasta, ja se oli merkittävä kauppakeskus. Nykyisin Petra on suosittu vierailukohde, ja se on ollut Unescon maailmanperintöluettelossa vuodesta 1985. Missä maassa Petra sijaitsee?",
         imgFile: "../images/petra-6294051_640.jpg",
         answer: [
             "Egyptissä",
@@ -161,45 +161,24 @@ let questions = [
     },
     //16 questions
     {
-        text: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis ipsum aliquid eius reprehenderit magnam neque iure. Quae ab aut perferendis cupiditate obcaecati voluptate voluptates reprehenderit fugiat, repellat dolor sequi dolorum? Quae culpa ipsa neque quaerat veniam laboriosam corrupti deserunt harum corporis molestias ratione accusamus odit assumenda sint recusandae porro eligendi repellat amet doloribus magnam cumque, animi sunt expedita? Eveniet, dignissimos.",
-        imgFile: "../images/petra-6294051_640.jpg",
+        text: "Scotlanti on maa Ison-Britannian saaren pohjois­osassa. Se käsittää suunnilleen kolmanneksen saaren pinta-alasta ja kuuluu Yhdistyneen kuningas­kunnan eli Britannian valtioon. Sen kokonais­pinta-ala on 78 772 neliökilometriä. Viralliset kielet ovat englanti, skotti ja gaeli. Mikä näistä on Scotlannin pääkaupunki?",
+        imgFile: "../images/flag-972353_640.jpg",
         answer: [
-            "61",
-            "62",
-            "63",
-            "64"]
+            "Aberdeen",
+            "Glasgow",
+            "Dundee",
+            "Edinburgh"]
     },
 
     {
-        text: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis ipsum aliquid eius reprehenderit magnam neque iure. Quae ab aut perferendis cupiditate obcaecati voluptate voluptates reprehenderit fugiat, repellat dolor sequi dolorum? Quae culpa ipsa neque quaerat veniam laboriosam corrupti deserunt harum corporis molestias ratione accusamus odit assumenda sint recusandae porro eligendi repellat amet doloribus magnam cumque, animi sunt expedita? Eveniet, dignissimos.",
-        imgFile: "../images/italy-4681065_640.jpg",
+        text: "Joki on suuri luonnon muovaama maanuoma, jossa virtaa vettä. Useimpien jokien kuljettama vesi on peräisin yläville maille osuneista sateista. Joki voi saada lisää vettä myös lähteistä, jossa pohjavesi tulee esiin pintavedeksi. Aluetta, jolle satanut vesi valuu joen uomaan, kutsutaan valuma-alueeksi. Tämän alueen ympärille muodostuu vedenjakaja. Kumpi näistä on pisin joki?",
+        imgFile: "../images/river-3642456_640.jpg",
         answer: [
-            "65",
-            "66",
-            "67",
-            "68"]
-    },
-
-    {
-        text: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis ipsum aliquid eius reprehenderit magnam neque iure. Quae ab aut perferendis cupiditate obcaecati voluptate voluptates reprehenderit fugiat, repellat dolor sequi dolorum? Quae culpa ipsa neque quaerat veniam laboriosam corrupti deserunt harum corporis molestias ratione accusamus odit assumenda sint recusandae porro eligendi repellat amet doloribus magnam cumque, animi sunt expedita? Eveniet, dignissimos.",
-        imgFile: "../images/italy-4681065_640.jpg",
-        answer: [
-            "69",
-            "70",
-            "71",
-            "72"]
-    },
-
-    {
-        text: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis ipsum aliquid eius reprehenderit magnam neque iure. Quae ab aut perferendis cupiditate obcaecati voluptate voluptates reprehenderit fugiat, repellat dolor sequi dolorum? Quae culpa ipsa neque quaerat veniam laboriosam corrupti deserunt harum corporis molestias ratione accusamus odit assumenda sint recusandae porro eligendi repellat amet doloribus magnam cumque, animi sunt expedita? Eveniet, dignissimos.",
-        imgFile: "../images/italy-4681065_640.jpg",
-        answer: [
-            "73",
-            "74",
-            "75",
-            "76"]
-    },
-    //20 questions
+            "Mississippi",
+            "Kongo",
+            "Amazon",
+            "Mekong"]
+    }
 ];
 
 function getRndInteger(min, max) {
@@ -208,37 +187,188 @@ function getRndInteger(min, max) {
 
 let num = 0;
 
-let answer1 = document.getElementById("btn1");
-let answer2 = document.getElementById("btn2");
-let answer3 = document.getElementById("btn3");
-let answer4 = document.getElementById("btn4");
+let count = 0;
 
-answer1.addEventListener("click", submitAnswer);
-answer2.addEventListener("click", submitAnswer);
-answer3.addEventListener("click", submitAnswer);
-answer4.addEventListener("click", submitAnswer);
+let submit = document.getElementById("btn6");
+
+submit.addEventListener("click", submitAnswer);
+
+let check1 = document.getElementById("btn1");
+let check2 = document.getElementById("btn2");
+let check3 = document.getElementById("btn3");
+let check4 = document.getElementById("btn4");
+
+check1.addEventListener("click", countAnswers1);
+check2.addEventListener("click", countAnswers2);
+check3.addEventListener("click", countAnswers3);
+check4.addEventListener("click", countAnswers4);
+
+
+let rightAnswers = [questions[0].answer[0],
+                    questions[1].answer[2],
+                    questions[2].answer[3],
+                    questions[3].answer[1],
+                    questions[4].answer[0],
+                    questions[5].answer[1],
+                    questions[6].answer[3],
+                    questions[7].answer[1],
+                    questions[8].answer[2],
+                    questions[9].answer[1],
+                    questions[10].answer[3],
+                    questions[11].answer[1],
+                    questions[12].answer[1],
+                    questions[13].answer[2],
+                    questions[14].answer[0],
+                    questions[15].answer[2],
+                    questions[16].answer[3],
+                    questions[17].answer[2]
+];
+
+function countAnswers1() {   
+        
+    for (let j = 0; j < rightAnswers.length; j++) {
+            
+        if (document.getElementById("btn1").innerHTML == rightAnswers[j]) {
+            count++;
+            document.getElementById("btn1").disabled = true;
+            document.getElementById("btn2").disabled = true;
+            document.getElementById("btn3").disabled = true;
+            document.getElementById("btn4").disabled = true;
+            document.getElementById("btn6").disabled = false;
+            document.getElementById("result").innerHTML = "<div class='alert alert-success' role='alert'>" + 
+            "Vastauksesi on oikein!" + "</div>";
+            check1.setAttribute("disable");
+            check2.setAttribute("disable");
+            check3.setAttribute("disable");
+            check4.setAttribute("disable");
+        }
+        else {
+            document.getElementById("result").innerHTML = "<div class='alert alert-danger' role='alert'>" + 
+            "Vastauksesi on väärin!" + "</div>";
+        }
+        document.getElementById("btn1").disabled = true;
+        document.getElementById("btn2").disabled = true;
+        document.getElementById("btn3").disabled = true;
+        document.getElementById("btn4").disabled = true;
+        document.getElementById("btn6").disabled = false;
+    }
+    return count;
+}
+
+function countAnswers2() {
+        
+    for (let j = 0; j < rightAnswers.length; j++) {
+            
+        if (document.getElementById("btn2").innerHTML == rightAnswers[j]) {
+            count++;
+            document.getElementById("result").innerHTML = "<div class='alert alert-success' role='alert'>" + 
+            "Vastauksesi on oikein!" + "</div>";
+            check1.setAttribute("disable");
+            check2.setAttribute("disable");
+            check3.setAttribute("disable");
+            check4.setAttribute("disable");
+        }
+        else {
+            document.getElementById("result").innerHTML = "<div class='alert alert-danger' role='alert'>" + 
+            "Vastauksesi on väärin!" + "</div>";
+        }
+        document.getElementById("btn1").disabled = true;
+        document.getElementById("btn2").disabled = true;
+        document.getElementById("btn3").disabled = true;
+        document.getElementById("btn4").disabled = true;
+        document.getElementById("btn6").disabled = false;
+    }
+    return count;
+}
+
+function countAnswers3() {
+
+    for (let j = 0; j < rightAnswers.length; j++) {
+                
+        if (document.getElementById("btn3").innerHTML == rightAnswers[j]) {
+            count++;
+            document.getElementById("result").innerHTML = "<div class='alert alert-success' role='alert'>" + 
+            "Vastauksesi on oikein!" + "</div>";
+            check1.setAttribute("disable");
+            check2.setAttribute("disable");
+            check3.setAttribute("disable");
+            check4.setAttribute("disable");
+        }
+        else {
+            document.getElementById("result").innerHTML = "<div class='alert alert-danger' role='alert'>" + 
+            "Vastauksesi on väärin!" + "</div>";
+        }
+        document.getElementById("btn1").disabled = true;
+        document.getElementById("btn2").disabled = true;
+        document.getElementById("btn3").disabled = true;
+        document.getElementById("btn4").disabled = true;
+        document.getElementById("btn6").disabled = false;
+    }
+    return count;
+}
+
+function countAnswers4() {
+                
+    for (let j = 0; j < rightAnswers.length; j++) {
+                    
+        if (document.getElementById("btn4").innerHTML == rightAnswers[j]) {
+            count++;
+            document.getElementById("result").innerHTML = "<div class='alert alert-success' role='alert'>" + 
+            "Vastauksesi on oikein!" + "</div>";
+            check1.setAttribute("disable");
+            check2.setAttribute("disable");
+            check3.setAttribute("disable");
+            check4.setAttribute("disable");
+        }
+        else {
+            document.getElementById("result").innerHTML = "<div class='alert alert-danger' role='alert'>" + 
+            "Vastauksesi on väärin!" + "</div>";
+        }
+        document.getElementById("btn1").disabled = true;
+        document.getElementById("btn2").disabled = true;
+        document.getElementById("btn3").disabled = true;
+        document.getElementById("btn4").disabled = true;
+        document.getElementById("btn6").disabled = false;
+    }
+    return count;
+}
+
+
 
 function submitAnswer() {
 
+    document.getElementById("result").innerHTML = "";
+
+    document.getElementById("btn1").disabled = false;
+    document.getElementById("btn2").disabled = false;
+    document.getElementById("btn3").disabled = false;
+    document.getElementById("btn4").disabled = false;
+    
     num++;
 
-    if(num > 5) {
-        answer1.addEventListener("click", checkAnswers);
-        answer2.addEventListener("click", checkAnswers);
-        answer3.addEventListener("click", checkAnswers);
-        answer4.addEventListener("click", checkAnswers);
+    if(num > 4) {
+        submit.addEventListener("click", countPoints);
     }
 
     let rndNumber = getRndInteger(0, questions.length - 1);
     
     for (let i = 0; i < questions.length; i++) {
+        document.getElementById("num").innerHTML = num;
         document.getElementById("questionHere").innerHTML = questions[rndNumber].text;
         document.getElementById("picture").innerHTML = "<img src ='"+ questions[rndNumber].imgFile +"' class='rounded mx-auto d-block my-5' alt=''/>";
         document.getElementById("btn1").innerHTML = questions[rndNumber].answer[0];
         document.getElementById("btn2").innerHTML = questions[rndNumber].answer[1];
         document.getElementById("btn3").innerHTML = questions[rndNumber].answer[2];
         document.getElementById("btn4").innerHTML = questions[rndNumber].answer[3];
-        document.getElementById("num").innerHTML = num;
     }
     questions.splice(rndNumber, 1);
+
+    document.getElementById("btn6").disabled = true;
+}
+
+function countPoints() {
+    if (count == 5)
+    document.getElementById("picture").innerHTML = "<img src ='../images/traveller-3213992_640.jpg' class='rounded mx-auto d-block my-5' alt=''/>";
+    document.getElementById("questionHere").innerHTML = "Olet vastanut kaikiin kysymyksiin oikein. Sinun pistemääräsi on " + count;
+    document.getElementById("header").innerHTML = "Tuloksesi";
 }
