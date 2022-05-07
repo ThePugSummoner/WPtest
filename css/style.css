@@ -22,6 +22,11 @@ div {
   overflow-y: auto;
 }
 
+[class^="fa-solid"] {
+  width: 30px;
+  height: 30px;
+}
+
 .bi {
   vertical-align: -.125em;
   pointer-events: none;
